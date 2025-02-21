@@ -1,0 +1,11 @@
+package se.faridmobin.adventuregame;
+
+import se.faridmobin.adventuregame.game.Game;
+
+public class Main {
+    public static void main(String[] args) {
+        Game game = new Game();
+        game.start();
+    }
+}
+
